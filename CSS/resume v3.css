@@ -1,0 +1,33 @@
+html, body{
+	height: 100%;
+}
+
+body{
+	padding: 0;
+	margin: 0;
+	font-family: 'Heebo', sans-serif;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+a:hover{
+	color: #FF775F;
+	transition: 0.4s;
+}
+
+span{
+	display: block;
+}
+
+#background{
+	height: 100%;
+	width: 100%;
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("cassie2.jpg");
+}

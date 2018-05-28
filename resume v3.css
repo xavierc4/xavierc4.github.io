@@ -1,0 +1,94 @@
+html, body{
+	height: 100%;
+}
+
+body{
+	padding: 0;
+	margin: 0;
+	font-family: 'Raleway', sans-serif;
+	background-image: url("Pics/cassie2.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+}
+
+a{
+	text-decoration: none;
+	color: #9bdcff;
+}
+
+span{
+	display: block;
+}
+
+#leftcontain{
+	width: 610px;
+	padding: 20px;
+/*	width 650*/
+}
+
+#header{
+	text-align: center;
+	color: white;
+	margin: 90px 0 30px;
+}
+
+.name{
+	font-size: 5em;
+	font-weight: 900;
+/*	background-color: #9bdcff;*/
+	
+}
+
+.flavortext{
+	font-size: 2.2em;
+	font-weight: 500;
+}
+
+#navbar{
+	width: 610px;
+	background-color: white;
+	height: 50px;
+	text-align: center;
+	display: inline-flex;
+	justify-content: space-around;
+	align-items: center;
+	position: sticky;
+	top: 20px;
+	border-radius: 2px;
+	font-size: 1.1em;
+}
+
+.navbutton{
+	font-weight: 700;
+}
+
+#bodycontent{
+	color: white;
+	overflow: hidden;
+}
+
+.section{
+
+}
+
+.sectiontitle{
+	margin: 20px 0;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 2.2em;
+}
+
+.sectionbody{
+	font-size: 1.5em;
+	font-weight: 500;
+	padding-left: 20px;
+}
+
+#bottombar{
+	background-color: white;
+	height: 30px;
+	width: 610px;
+	margin-top: 20px;
+	border-radius: 2px;
+}

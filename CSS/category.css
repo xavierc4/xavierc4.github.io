@@ -1,0 +1,75 @@
+html, body{
+	height: 100%;
+}
+
+body{
+	padding: 0;
+	margin: 0;
+	font-family: 'Heebo', sans-serif;
+	overflow: hidden;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+a:hover{
+	color: #FF775F;
+	transition: 0.5s;
+}
+
+span{
+	display: block;
+}
+
+#backgroundpic{
+	height: 100%;
+	margin: 0;
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 0px;
+    background-image: url("cylinders.jpg");
+    padding: 50px 0;
+}
+
+.menu{
+	height: 100%;
+	width: 50px;
+	background-color: rgb(255, 119, 95);
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	transition: .5s
+}
+
+.menu:hover{
+	width: 250px;
+	transition-timing-function: ease-in;
+	transition: .5s;
+}
+
+.menuitem{
+
+}
+
+#main{
+	width: 50%;
+	margin: auto;
+	padding: 50px 200px 50px 100px;
+	background-color: rgba(255, 255, 255, 0.7);
+	border: 2px solid rgba(255, 119, 95, 0.6);
+}
+
+.titletext{
+	color: rgba(255, 119, 95, 1);
+	font-size: 2.5em;
+	margin-bottom: 30px;
+	font-weight: 100;
+}
+
+.bodytext{
+	font-size: 1.5em;
+}

@@ -1,0 +1,81 @@
+html, body{
+	height: 100%;
+}
+
+body{
+	padding: 0;
+	margin: 0;
+	font-family: 'Heebo', sans-serif;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+a:hover{
+	color: #FF775F;
+	transition: 0.4s;
+}
+
+span{
+	display: block;
+}
+
+#bigback{
+	height: 100%;
+	width: 100%;
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("cassie2.jpg");
+}
+
+#menu{
+	height: 100%;
+	width: 200px;
+	background-color: rgba(255, 119, 95, 0.8);
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	transition: .5s
+}
+
+#header{
+	width: 180px;
+	height: 280px;
+	padding: 10px;
+}
+
+.headshot{
+	width: 180px;
+	height: 180px;
+	border-radius: 100px;
+}
+
+.headpic{
+	width: 180px;
+	height: 180px;
+	border-radius: 100px;
+	filter: gray; /* IE6-9 */
+  	-webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+  	filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */
+}
+
+.headshottext{
+	margin-top: 10px;
+	text-align: center;
+	font-weight: 100;
+	color: white;
+	font-size: 1.1em;
+	background-color: rgba(255, 255, 255, 0.4);
+}
+
+.menuitem{
+	text-align: center;
+	font-weight: 300;
+	text-transform: capitalize;
+	margin: 20px 0;
+	font-size: 1.5em;
+}
